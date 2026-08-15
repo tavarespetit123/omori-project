@@ -1,0 +1,10 @@
+.container {
+    font-family: "font1";
+    font-size: 2rem;
+}
+
+.game-logo {
+    width: 50%;
+    height: 25%;
+    image-rendering: pixelated;
+}

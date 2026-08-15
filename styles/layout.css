@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "font1";
+    src: url("../assets/fonts/PeanutMoney.ttf");
+}
+
+@font-face {
+    font-family: "font2";
+    src: url("../assets/fonts/slkscr.ttf");
+}
+
+body {
+    font-family: "font1";
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    margin: 0;
+}
+
+/* NAVBAR */
+
+.navbar {
+    position: fixed;
+
+    display: flex;
+
+    right: 50%;
+    top: -1%;
+    transform: translateX(50%);
+
+    width: 100vw;
+    height: 15%;
+    background-color: black;
+}
+
+.navbar ul {
+    display: flex;
+    margin: 1%;
+
+    padding: 0.5%;
+}
+
+.navbar li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    list-style-type: none;
+    font-size: 3rem;
+
+    border: 0.5vw solid black;
+    background-color: white;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar li a .nav-icon {
+    width: 15%;
+    transform: translateY(25%);
+    image-rendering: pixelated;
+    color: black;
+}
+
+/* CONTAINER */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    width: 90vw;
+    min-height: 100vh;
+    padding: 2%;
+
+    font-size: 1.5rem;
+
+    margin-top: 12.5vw;
+    border: 0.5vw solid black;
+}
