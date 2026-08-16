@@ -1,0 +1,11 @@
+body {
+    background-image: url("https://static.wikia.nocookie.net/omori/images/0/00/Battleback_bookshelf.png/revision/latest?cb=20210414001902");
+}
+
+.container {
+    background-color: aliceblue;
+}
+
+.link {
+    color: rgb(0, 34, 255);
+}

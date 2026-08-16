@@ -4,11 +4,17 @@
     gap: 5%;
 }
 
+.characters .card:hover {
+    transform: scale(1.05);
+}
+
 .characters .card a {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    height: 110%;
 
     padding: 2.5%;
 
@@ -17,4 +23,10 @@
 
 .characters .card a img {
     border-bottom: 0.3vw solid black;
+}
+
+body {
+    background-image: url("https://i.ytimg.com/vi/iHjoeKuSqg0/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }

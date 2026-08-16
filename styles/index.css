@@ -8,3 +8,7 @@
     height: 25%;
     image-rendering: pixelated;
 }
+
+.credits {
+    color: red;
+}

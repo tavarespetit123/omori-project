@@ -1,0 +1,19 @@
+body {
+    background-image: url("https://static.wikia.nocookie.net/omori/images/4/49/Something_%28Engulf%29.png/revision/latest?cb=20210617033914");
+}
+
+.container {
+    background-color: black;
+    border-color: white;
+    color: white;
+}
+
+.link {
+    color: rgb(129, 131, 140);
+}
+
+.personality-card {
+    color: black;
+
+    box-shadow: 5px 5px 0 #b9b4b4;
+}

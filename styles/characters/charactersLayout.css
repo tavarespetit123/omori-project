@@ -1,0 +1,59 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.char-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+
+    margin: 0;
+}
+
+.char-header img {
+    image-rendering: pixelated;
+}
+
+.char-header h1 {
+    font-size: 5rem;
+}
+
+.curiosity {
+    background-color: white;
+
+    padding: 2.5%;
+}
+
+.curiosity li {
+    list-style-type: none;
+    background-color: black;
+    color: white;
+
+    margin-bottom: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.personality-card {
+    border: 0.3vw solid black;
+
+    margin-bottom: 2.5%;
+}
+
+.personality-card {
+    background-color: white;
+
+    padding: 1.25rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+
+    box-shadow: 5px 5px 0 #000;
+
+    image-rendering: pixelated;
+}

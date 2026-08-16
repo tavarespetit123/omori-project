@@ -1,0 +1,13 @@
+body {
+    background-image: url("https://static.wikia.nocookie.net/omori/images/1/1d/Omori_%28Boss%29_Background_Phase_3.png/revision/latest?cb=20210117002705");
+}
+
+.error {
+    font-family: "font3";
+    font-size: 2rem;
+    color: red;
+}
+
+.link {
+    color: rgb(121, 121, 121);
+}
