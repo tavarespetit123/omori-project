@@ -2,10 +2,16 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 .characters .card:hover {
     transform: scale(1.05);
+}
+
+.characters .card {
+    margin-top: 15%;
 }
 
 .characters .card a {
@@ -14,11 +20,14 @@
     align-items: center;
     justify-content: center;
 
-    height: 110%;
+    height: 150%;
 
     padding: 2.5%;
 
     border: 0.3vw solid black;
+
+    color: black;
+    text-decoration-line: none;
 }
 
 .characters .card a img {
